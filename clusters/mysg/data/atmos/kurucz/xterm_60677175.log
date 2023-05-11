@@ -1,0 +1,33 @@
+Mon Nov  2 09:47:41 EST 2020
+i21a-s3.ufhpc
+/blue/adamginsburg/richardson.t/research/flux/mysg/mysg/data/atmos/kurucz
+System xterm is avialable on all gui nodes.
+
+Searching for an available X11 port number
+ls: cannot access /tmp/.mount_CARTA.kv0MgA: Permission denied
+ls: cannot access /tmp/.mount_CARTA.LlWFVl: Permission denied
+
+X11 port number '9636 has been selected
+Starting Xpra on port 9636 within SLURM job '60677175'
+
+Command: xpra start :9636 --encoding=auto --quality=80 --html=on --ws-auth=env --exit-with-children=yes --bind-ws=127.0.0.1:9636 --daemon=no --systemd-run=no --dbus-proxy=no --dbus-control=no  --dpi=96 --start-child="xterm"
+2020-11-02 09:47:44,833 Warning: failed to create script directory '/scratch/local/5467/xpra':
+2020-11-02 09:47:44,833  [Errno 2] No such file or directory: '/scratch/local/5467/xpra'
+2020-11-02 09:47:44,879 created ws socket '127.0.0.1:9636'
+2020-11-02 09:47:44,882 cannot access python uinput module:
+2020-11-02 09:47:44,882  No module named uinput
+(EE) 
+Fatal server error:
+(EE) Could not create server lock file: /tmp/.X9636-lock
+(EE) 
+(EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+(EE) 
+2020-11-02 09:47:45,060 
+2020-11-02 09:47:45,060 Xvfb command has terminated! xpra cannot continue
+2020-11-02 09:47:45,061  if the display is already running, try a different one,
+2020-11-02 09:47:45,061  or use the --use-display flag
+2020-11-02 09:47:45,061 
+Mon Nov  2 09:47:45 EST 2020
