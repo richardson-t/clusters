@@ -37,3 +37,9 @@ modclusmostmass=np.logspace(0,2,10000)
 LindexLis=maxLikelyFit([yso21,yso56,yso16],[yso21er,yso56er,yso16er],[modclusF21,modclusF56,modclusF16])
 
 #plug the index into model mass and most massive member
+ysoClusMass=[]
+ysoMostMass=[]
+for i in range(len(yso21)):
+    ysoClusMass.append(np.mean(modclusMass[LindexLis[i]]))
+    ysoMostMass.append(np.mean(modclusmostmass[LindexLis[i]]))
+    
